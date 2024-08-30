@@ -1,3 +1,4 @@
+/*
 ### Task-2
 
 Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
@@ -19,3 +20,15 @@ Print the result in 2 decimal places.
 **Sample Output:**
 </br>
 71.04
+*/
+
+var Mathematics, Biology, Chemistry, Physics, Bangla;
+Mathematics = 85;
+Biology = 81;
+Chemistry = 83;
+Physics = 78;
+Bangla = 80;
+var marks = Mathematics + Biology + Chemistry + Physics + Bangla;
+var average = marks/5;
+console.log("marks = ", marks);
+console.log("average = ", average);
