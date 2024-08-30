@@ -1,3 +1,4 @@
+/*
 ### Task-3
 
 You task is to divide the given number by 5 and show the remainder as the output.
@@ -19,3 +20,8 @@ Print the remainder.
 **Sample Output:**
 </br>
 4
+*/
+var x = 39;
+var y = 5;
+var z = 39 % 5;
+console.log("reminder = ", z);
